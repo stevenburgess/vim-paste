@@ -1,0 +1,13 @@
+This project will attempt to explain vims paste flag.
+
+:set paste? To check pastes current status (also shows up next to the word
+INSERT in vim)
+:set paste! To toggle paste mode
+
+With paste turned off, copy the text from the python file to the pain text file.
+If you are using a .vimrc similar to mine, the formating will be all messed up,
+as vim tries to give you the correct spacing and newlines.
+
+Turn on paste and do it again. You should see that the exact format you copied
+since paste mode deactivates all the fancy formating options.
+
